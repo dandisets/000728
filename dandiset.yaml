@@ -6,11 +6,38 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 40414693615
+  numberOfFiles: 85
+  numberOfSubjects: 18
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - PlaneSegmentation
+  - BehavioralTimeSeries
+  - ImagingPlane
+  - ProcessingModule
+  - OpticalChannel
 citation: Baker, Cody (2023) Allen Institute - Visual Coding - Optical Physiology
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000728/draft
+  (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: cody.c.baker.phd@gmail.com
@@ -20,6 +47,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-12-11T05:09:39.457563+00:00'
+datePublished: '2023-12-11T15:55:24.673402+00:00'
 description: 'From the Allen Institute Brain Observatory, the Visual Coding (optical
   physiology) dataset is a large-scale, standardized survey of physiological activity
   across the mouse visual cortex, hippocampus, and thalamus. This two-photon imaging
@@ -34,6 +62,7 @@ description: 'From the Allen Institute Brain Observatory, the Visual Coding (opt
 
 
   '
+doi: 10.80507/dandi.123456/0.123456.1234
 id: DANDI:000728/draft
 identifier: DANDI:000728
 license:
@@ -41,6 +70,18 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000728/versions/draft/assets/
 name: Allen Institute - Visual Coding - Optical Physiology
+publishedBy:
+  endDate: '2023-12-11T15:55:24.673402+00:00'
+  id: urn:uuid:9de8253c-61e4-4c8e-87cf-f4fbcd592246
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-12-11T15:55:24.673402+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:2849ccbf-e3e8-48a4-a84f-e706a9297c0f
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
