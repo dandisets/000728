@@ -22,9 +22,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 40414693615
-  numberOfFiles: 85
-  numberOfSubjects: 18
+  numberOfBytes: 120437768683
+  numberOfFiles: 303
+  numberOfSubjects: 94
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -47,7 +47,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-12-11T05:09:39.457563+00:00'
-datePublished: '2023-12-11T15:55:24.673402+00:00'
+datePublished: '2023-12-11T16:48:24.703144+00:00'
 description: 'From the Allen Institute Brain Observatory, the Visual Coding (optical
   physiology) dataset is a large-scale, standardized survey of physiological activity
   across the mouse visual cortex, hippocampus, and thalamus. This two-photon imaging
@@ -71,13 +71,13 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000728/versions/draft/assets/
 name: Allen Institute - Visual Coding - Optical Physiology
 publishedBy:
-  endDate: '2023-12-11T15:55:24.673402+00:00'
-  id: urn:uuid:9de8253c-61e4-4c8e-87cf-f4fbcd592246
+  endDate: '2023-12-11T16:48:24.703144+00:00'
+  id: urn:uuid:bcc4c922-a5c7-4399-a19c-09aaf14de623
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-11T15:55:24.673402+00:00'
+  startDate: '2023-12-11T16:48:24.703144+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:2849ccbf-e3e8-48a4-a84f-e706a9297c0f
+  - id: urn:uuid:714cb9bd-cd69-478d-96b3-606a9b23607e
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
