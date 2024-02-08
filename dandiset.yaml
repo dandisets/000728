@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000728
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -22,8 +23,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 378236139607
-  numberOfFiles: 1103
+  numberOfBytes: 378774073171
+  numberOfFiles: 1104
   numberOfSubjects: 245
   schemaKey: AssetsSummary
   species:
@@ -36,7 +37,7 @@ assetsSummary:
   - ImagingPlane
   - ProcessingModule
   - OpticalChannel
-citation: Baker, Cody (2023) Allen Institute - Visual Coding - Optical Physiology
+citation: Baker, Cody (2024) Allen Institute - Visual Coding - Optical Physiology
   (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
@@ -47,7 +48,7 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-12-11T05:09:39.457563+00:00'
-datePublished: '2023-12-11T20:40:41.636615+00:00'
+datePublished: '2024-02-08T17:07:52.470202+00:00'
 description: 'From the Allen Institute Brain Observatory, the Visual Coding (optical
   physiology) dataset is a large-scale, standardized survey of physiological activity
   across the mouse visual cortex, hippocampus, and thalamus. This two-photon imaging
@@ -61,29 +62,38 @@ description: 'From the Allen Institute Brain Observatory, the Visual Coding (opt
   here: https://observatory.brain-map.org/visualcoding/
 
 
+  The Visual Coding Ecephys (NeuroPixels) dataset can be found here: https://dandiarchive.org/dandiset/000021
+
+
   '
 doi: 10.80507/dandi.123456/0.123456.1234
+ethicsApproval: []
 id: DANDI:000728/draft
 identifier: DANDI:000728
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000728/versions/draft/assets/
 name: Allen Institute - Visual Coding - Optical Physiology
+protocol: []
 publishedBy:
-  endDate: '2023-12-11T20:40:41.636615+00:00'
-  id: urn:uuid:ccce1986-1b42-426a-ade3-9a4915d193fb
+  endDate: '2024-02-08T17:07:52.470202+00:00'
+  id: urn:uuid:0913ffb0-cbb3-4b11-8c75-2f37e3fbb0b1
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-12-11T20:40:41.636615+00:00'
+  startDate: '2024-02-08T17:07:52.470202+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:0af1b173-1987-490b-9155-125bd7f626c0
+  - id: urn:uuid:c19e0651-48b4-45ea-8250-0894c0882470
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000728/draft
 version: draft
+wasGeneratedBy: []
