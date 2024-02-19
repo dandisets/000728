@@ -23,9 +23,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 542682405428
-  numberOfFiles: 1249
-  numberOfSubjects: 255
+  numberOfBytes: 623821423460
+  numberOfFiles: 1344
+  numberOfSubjects: 260
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
