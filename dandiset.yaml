@@ -23,8 +23,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 378774073171
-  numberOfFiles: 1104
+  numberOfBytes: 409777940890
+  numberOfFiles: 1125
   numberOfSubjects: 245
   schemaKey: AssetsSummary
   species:
@@ -37,6 +37,10 @@ assetsSummary:
   - ImagingPlane
   - ProcessingModule
   - OpticalChannel
+  - CompassDirection
+  - EyeTracking
+  - PupilTracking
+  - SpatialSeries
 citation: Baker, Cody (2024) Allen Institute - Visual Coding - Optical Physiology
   (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
