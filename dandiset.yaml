@@ -8,23 +8,25 @@ access:
   status: dandi:OpenAccess
 assetsSummary:
   approach:
-  - name: behavioral approach
-    schemaKey: ApproachType
   - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: behavioral technique
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: two-photon microscopy technique
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  - name: surgical technique
+  - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 519647605776
-  numberOfFiles: 1515
+  numberOfBytes: 7416422266236
+  numberOfFiles: 1689
   numberOfSubjects: 271
   schemaKey: AssetsSummary
   species:
@@ -32,17 +34,18 @@ assetsSummary:
     name: Mus musculus - House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - BehavioralTimeSeries
-  - ProcessingModule
-  - PlaneSegmentation
   - OpticalChannel
+  - TwoPhotonSeries
   - ImagingPlane
-  - CompassDirection
-  - EyeTracking
+  - PlaneSegmentation
+  - ProcessingModule
+  - BehavioralTimeSeries
   - SpatialSeries
+  - CompassDirection
   - PupilTracking
+  - EyeTracking
 citation: Baker, Cody (2024) Allen Institute - Visual Coding - Optical Physiology
-  (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000728/draft
 contributor:
 - affiliation: []
   email: cody.c.baker.phd@gmail.com
@@ -51,8 +54,14 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- identifier: https://ror.org/03cpe7c52
+  includeInCitation: false
+  name: Allen Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://alleninstitute.org/
 dateCreated: '2023-12-11T05:09:39.457563+00:00'
-datePublished: '2024-02-08T17:07:52.470202+00:00'
 description: 'From the Allen Institute Brain Observatory, the Visual Coding (optical
   physiology) dataset is a large-scale, standardized survey of physiological activity
   across the mouse visual cortex, hippocampus, and thalamus. This two-photon imaging
@@ -70,7 +79,6 @@ description: 'From the Allen Institute Brain Observatory, the Visual Coding (opt
 
 
   '
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000728/draft
 identifier: DANDI:000728
@@ -81,18 +89,6 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000728/versions/draft/assets/
 name: Allen Institute - Visual Coding - Optical Physiology
 protocol: []
-publishedBy:
-  endDate: '2024-02-08T17:07:52.470202+00:00'
-  id: urn:uuid:0913ffb0-cbb3-4b11-8c75-2f37e3fbb0b1
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2024-02-08T17:07:52.470202+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:c19e0651-48b4-45ea-8250-0894c0882470
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
