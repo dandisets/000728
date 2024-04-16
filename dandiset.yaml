@@ -25,8 +25,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 50033926572066
-  numberOfFiles: 2740
+  numberOfBytes: 50197400683324
+  numberOfFiles: 2744
   numberOfSubjects: 271
   schemaKey: AssetsSummary
   species:
