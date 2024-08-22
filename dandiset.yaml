@@ -2,13 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000728
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
-about:
-- identifier: http://purl.bioontology.org/ontology/UBERON/UBERON:0000411
-  name: Visual Cortex
-  schemaKey: Anatomy
-- identifier: http://purl.obolibrary.org/obo/GO_0007601
-  name: Visual Perception
-  schemaKey: GenericType
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -68,6 +62,7 @@ contributor:
   schemaKey: Organization
   url: https://alleninstitute.org/
 dateCreated: '2023-12-11T05:09:39.457563+00:00'
+datePublished: '2024-08-22T17:54:24.619088+00:00'
 description: 'From the Allen Institute Brain Observatory, the Visual Coding (optical
   physiology) dataset is a large-scale, standardized survey of physiological activity
   across the mouse visual cortex, hippocampus, and thalamus. This two-photon imaging
@@ -95,6 +90,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000728/versions/draft/assets/
 name: Allen Institute - Visual Coding - Optical Physiology
 protocol: []
+publishedBy:
+  endDate: '2024-08-22T17:54:24.619088+00:00'
+  id: urn:uuid:1fea8fcb-53ce-4cd5-a7c8-dcb5ee0db247
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-08-22T17:54:24.619088+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:ca4c1199-7330-4424-9216-e12172d3188f
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 7c4a0ddf6a0af514cfb9794958b7d15cebaeecbc
   name: Example Notebook
