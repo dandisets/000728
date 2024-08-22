@@ -45,7 +45,7 @@ assetsSummary:
   - PupilTracking
   - EyeTracking
 citation: Baker, Cody (2024) Allen Institute - Visual Coding - Optical Physiology
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000728/draft
+  (Version 0.240822.1754) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000728/0.240822.1754
 contributor:
 - affiliation: []
   email: cody.c.baker.phd@gmail.com
@@ -80,14 +80,15 @@ description: 'From the Allen Institute Brain Observatory, the Visual Coding (opt
 
 
   '
+doi: 10.48324/dandi.000728/0.240822.1754
 ethicsApproval: []
-id: DANDI:000728/draft
+id: DANDI:000728/0.240822.1754
 identifier: DANDI:000728
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000728/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000728/0.240822.1754/assets.yaml
 name: Allen Institute - Visual Coding - Optical Physiology
 protocol: []
 publishedBy:
@@ -121,6 +122,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000728/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000728/0.240822.1754
+version: 0.240822.1754
 wasGeneratedBy: []
