@@ -44,25 +44,27 @@ assetsSummary:
   - CompassDirection
   - PupilTracking
   - EyeTracking
-citation: Baker, Cody (2024) Allen Institute - Visual Coding - Optical Physiology
+citation: Allen Institute (2024) Allen Institute - Visual Coding - Optical Physiology
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000728/draft
 contributor:
 - affiliation: []
   email: cody.c.baker.phd@gmail.com
-  includeInCitation: true
+  includeInCitation: false
   name: Baker, Cody
   roleName:
-  - dcite:ContactPerson
+  - dcite:DataCurator
   schemaKey: Person
-- identifier: https://ror.org/03cpe7c52
-  includeInCitation: false
+- email: info@alleninstitute.org
+  identifier: https://ror.org/03cpe7c52
+  includeInCitation: true
   name: Allen Institute
   roleName:
   - dcite:Funder
+  - dcite:ContactPerson
   schemaKey: Organization
   url: https://alleninstitute.org/
 dateCreated: '2023-12-11T05:09:39.457563+00:00'
-datePublished: '2024-08-22T17:54:24.619088+00:00'
+datePublished: '2024-08-27T18:09:04.150074+00:00'
 description: 'From the Allen Institute Brain Observatory, the Visual Coding (optical
   physiology) dataset is a large-scale, standardized survey of physiological activity
   across the mouse visual cortex, hippocampus, and thalamus. This two-photon imaging
@@ -91,13 +93,13 @@ manifestLocation:
 name: Allen Institute - Visual Coding - Optical Physiology
 protocol: []
 publishedBy:
-  endDate: '2024-08-22T17:54:24.619088+00:00'
-  id: urn:uuid:1fea8fcb-53ce-4cd5-a7c8-dcb5ee0db247
+  endDate: '2024-08-27T18:09:04.150074+00:00'
+  id: urn:uuid:b5178ec3-dce6-42cf-8f89-e02f9c6869a7
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2024-08-22T17:54:24.619088+00:00'
+  startDate: '2024-08-27T18:09:04.150074+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:ca4c1199-7330-4424-9216-e12172d3188f
+  - id: urn:uuid:8ee522b3-6cdf-4ebc-8d7c-7b200e3adf87
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
